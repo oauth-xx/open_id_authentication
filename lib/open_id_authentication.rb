@@ -132,7 +132,7 @@ module OpenIdAuthentication
 
   self.store = nil
 
-  if defined?(::Rails::Railtie)
+  if defined?(::Rails::Railtie) && !defined?(NO_RAILTIE)
     class Railtie < ::Rails::Railtie
       config.app_middleware.use OpenIdAuthentication
 
