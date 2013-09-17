@@ -5,9 +5,13 @@ describe OpenIdAuthentication do
     OpenIdAuthentication.store = :memory
   end
 
+  it "has a version" do
+    OpenIdAuthentication::VERSION.should =~ /^\d+\.\d+\.\d+$/
+  end
+
   describe ".new" do
     it "creates a Rack::OpenID" do
-      OpenIdAuthentication.new({}).class.should == Rack::OpenID
+      OpenIdAuthentication::Middleware.new({}).class.should == Rack::OpenID
     end
   end
 end

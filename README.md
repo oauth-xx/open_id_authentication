@@ -222,17 +222,15 @@ Accessing AX data is very similar to the Simple Registration process, described 
 
 This would provide the sreg data for :email via registration, and the AX data for http://schema.openid.net/birthDate via ax.
 
-Contributing
-------------
+TODO
+----
+ - tests
 
-Please see the [contribution guidelines](http://github.com/Velir/open_id_authentication/blob/master/CONTRIBUTION_GUIDELINES.md).
 
 Credits
 -------
 
 open_id_authentication was written by David Heinemeier Hansson with a number of other [contributors](https://github.com/Velir/open_id_authentication/contributors).
-
-open_id_authentication maintenance is funded by [Velir](http://velir.com).
 
 
 License
