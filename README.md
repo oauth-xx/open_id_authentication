@@ -1,9 +1,7 @@
 OpenIdAuthentication
 ====================
 
-Provides a thin wrapper around the excellent ruby-openid gem from JanRan. Be sure to install that first:
-
-  gem install ruby-openid
+Provides a thin wrapper around the excellent ruby-openid gem from JanRan.
 
 To understand what OpenID is about and how it works, it helps to read the documentation for lib/openid/consumer.rb
 from that gem.
@@ -219,7 +217,7 @@ Some OpenID providers also support the OpenID AX (attribute exchange) protocol f
 Accessing AX data is very similar to the Simple Registration process, described above -- just add the URI identifier for the AX field to your :optional or :required parameters.  For example:
 
     authenticate_with_open_id(identity_url,
-      :required => [ :email, 'http://schema.openid.net/birthDate' ]) do 
+      :required => [ :email, 'http://schema.openid.net/birthDate' ]) do
         |result, identity_url, registration, ax|
 
 This would provide the sreg data for :email via registration, and the AX data for http://schema.openid.net/birthDate via ax.
