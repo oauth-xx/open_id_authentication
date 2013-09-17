@@ -1,4 +1,4 @@
-OpenIdAuthentication
+OpenIdAuthentication [![Build Status](https://travis-ci.org/grosser/open_id_authentication.png)](https://travis-ci.org/grosser/open_id_authentication)
 ====================
 
 Provides a thin wrapper around the excellent ruby-openid gem from JanRan.
