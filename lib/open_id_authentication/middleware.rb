@@ -28,9 +28,9 @@ module OpenIdAuthentication
         require 'openid/store/filesystem'
         OpenID::Store::Filesystem.new(Rails.root.join('tmp/openids'))
       when :memcache
-        require 'memcache'
+        require 'dalli'
         require 'openid/store/memcache'
-        OpenID::Store::Memcache.new(MemCache.new(args))
+        OpenID::Store::Memcache.new(Dalli::Client.new(args))
       else
         store
       end
