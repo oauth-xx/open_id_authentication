@@ -1,10 +1,14 @@
-require_relative "lib/open_id_authentication/version"
+# Get the GEMFILE_VERSION without *require* "my_gem/version", for code coverage accuracy
+# See: https://github.com/simplecov-ruby/simplecov/issues/557#issuecomment-825171399
+load "lib/open_id_authentication/version.rb"
+gem_version = OpenIdAuthentication::Version::VERSION
+OpenIdAuthentication::Version.send(:remove_const, :VERSION)
 
 Gem::Specification.new do |spec|
   spec.name = "open_id_authentication2"
-  spec.version = OpenIdAuthentication::VERSION
+  spec.version = gem_version
   spec.summary = "Provides a thin wrapper around the excellent rack-openid2 gem."
-  spec.authors = ["Peter Boling", "Patrick Robertson", "Michael Grosser"]
+  spec.authors = ["Peter Boling", "Patrick Robertson", "Michael Grosser", "Joshua Peek", "David Heinemeier Hansson"]
   spec.email = "peter.boling@gmail.com"
   spec.homepage = "https://github.com/VitalConnectInc/#{spec.name}"
 
