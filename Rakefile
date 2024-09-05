@@ -1,7 +1,13 @@
-require 'bundler/setup'
-require 'bundler/gem_tasks'
-require 'bump/tasks'
+#!/usr/bin/env rake
+require "bundler/gem_tasks"
 
-task :default do
-  sh "rspec spec/"
+begin
+  require "rspec/core/rake_task"
+  RSpec::Core::RakeTask.new(:spec)
+  desc "alias test task to spec"
+  task test: :spec
+rescue LoadError
+  task(:spec) do
+    warn("rspec is disabled")
+  end
 end
