@@ -6,10 +6,12 @@ module OpenIdAuthentication
       canceled: "OpenID verification was canceled",
       failed: "OpenID verification failed",
       setup_needed: "OpenID verification needs setup",
-    }
+    }.freeze
 
-    def self.[](code)
-      new(code)
+    class << self
+      def [](code)
+        new(code)
+      end
     end
 
     def initialize(code)
