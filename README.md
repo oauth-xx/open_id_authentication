@@ -235,7 +235,7 @@ Accessing AX data is very similar to the Simple Registration process, described 
 This would provide the sreg data for :email via registration, and the AX data for http://schema.openid.net/birthDate via ax.
 
 ## TODO
- 
+
 - More tests
 
 ## Credits
