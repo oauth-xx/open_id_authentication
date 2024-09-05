@@ -1,4 +1,4 @@
-Copyright (c) 2007 - 2010 David Heinemeier Hansson, Joshua Peek
+Copyright (c) 2007 - 2011 David Heinemeier Hansson, Joshua Peek
 Copyright (c) 2024 Peter Boling
 
 Permission is hereby granted, free of charge, to any person obtaining
