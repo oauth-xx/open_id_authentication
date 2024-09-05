@@ -1,3 +1,7 @@
 *.gem
 .rspec_status
 /doc/
+/coverage/
+/doc/
+/.bundle/
+/.yardoc/
