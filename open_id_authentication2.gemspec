@@ -12,6 +12,10 @@ Gem::Specification.new do |spec|
   spec.email = "peter.boling@gmail.com"
   spec.homepage = "https://github.com/VitalConnectInc/#{spec.name}"
 
+  # See CONTRIBUTING.md
+  spec.cert_chain = [ENV.fetch("GEM_CERT_PATH", "certs/#{ENV.fetch("GEM_CERT_USER", ENV["USER"])}.pem")]
+  spec.signing_key = File.expand_path("~/.ssh/gem-private_key.pem") if $PROGRAM_NAME.end_with?("gem")
+
   # Specify which files should be added to the gem when it is released.
   spec.files = Dir[
     # Splats (alphabetical)
