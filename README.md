@@ -1,5 +1,25 @@
-OpenIdAuthentication [![Build Status](https://travis-ci.org/grosser/open_id_authentication.png)](https://travis-ci.org/grosser/open_id_authentication)
-====================
+# OpenIdAuthentication
+
+<div id="badges">
+
+[![CI Supported Build][🚎s-wfi]][🚎s-wf]
+[![CI Unsupported Build][🚎us-wfi]][🚎us-wf]
+[![CI Style Build][🚎st-wfi]][🚎st-wf]
+[![CI Coverage Build][🚎cov-wfi]][🚎cov-wf]
+[![CI Heads Build][🚎hd-wfi]][🚎hd-wf]
+
+[🚎s-wf]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/supported.yml
+[🚎s-wfi]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/supported.yml/badge.svg
+[🚎us-wf]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/unsupported.yml
+[🚎us-wfi]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/unsupported.yml/badge.svg
+[🚎st-wf]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/style.yml
+[🚎st-wfi]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/style.yml/badge.svg
+[🚎cov-wf]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/coverage.yml
+[🚎cov-wfi]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/coverage.yml/badge.svg
+[🚎hd-wf]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/heads.yml
+[🚎hd-wfi]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/heads.yml/badge.svg
+
+</div>
 
 Provides a thin wrapper around the excellent ruby-openid gem from JanRan.
 
@@ -8,9 +28,7 @@ from that gem.
 
 The specification used is http://openid.net/specs/openid-authentication-2_0.html.
 
-
-Prerequisites
--------------
+## Prerequisites
 
 OpenID authentication uses the session, so be sure that you haven't turned that off.
 
@@ -27,9 +45,7 @@ The plugin also expects to find a root_url method that points to the home page o
 
 This plugin relies on Rails Edge revision 6317 or newer.
 
-
-Example
--------
+## Example
 
 This example is just to meant to demonstrate how you could use OpenID authentication. You might well want to add
 salted hash logins instead of plain text passwords and other requirements on top of this. Treat it as a starting point,
@@ -139,8 +155,6 @@ app/controllers/sessions_controller.rb
       end
     end
 
-
-
 If you're fine with the result messages above and don't need individual logic on a per-failure basis,
 you can collapse the case into a mere boolean:
 
@@ -155,8 +169,7 @@ you can collapse the case into a mere boolean:
     end
 
 
-Simple Registration OpenID Extension
-------------------------------------
+## Simple Registration OpenID Extension
 
 Some OpenID Providers support this lightweight profile exchange protocol.  See more: http://www.openidenabled.com/openid/simple-registration-extension
 
@@ -209,8 +222,7 @@ You can support it in your app by changing #open_id_authentication
         { :login => 'nickname', :email => 'email', :display_name => 'fullname' }
       end
 
-Attribute Exchange OpenID Extension
------------------------------------
+## Attribute Exchange OpenID Extension
 
 Some OpenID providers also support the OpenID AX (attribute exchange) protocol for exchanging identity information between endpoints.  See more: http://openid.net/specs/openid-attribute-exchange-1_0.html
 
@@ -222,17 +234,42 @@ Accessing AX data is very similar to the Simple Registration process, described 
 
 This would provide the sreg data for :email via registration, and the AX data for http://schema.openid.net/birthDate via ax.
 
-TODO
-----
- - tests
+## TODO
+ 
+- More tests
 
+## Credits
 
-Credits
--------
+## 🌈 Contributors
 
-open_id_authentication was written by David Heinemeier Hansson with a number of other [contributors](https://github.com/Velir/open_id_authentication/contributors).
+Current maintainer(s):
 
+- [Peter Boling](https://github.com/pboling)
 
-License
--------
-Copyright (c) 2007-2011 David Heinemeier Hansson, released under the MIT license
+Special thanks to:
+- David Heinemeier Hansson - author of original `open_id_authentication`
+- [Joshua Peek](https://github.com/josh) maintainer of original `open_id_authentication2`
+
+And all the other contributors!
+
+[![Contributors][🖐contributors-img]][🖐contributors]
+
+Made with [contributors-img][🖐contrib-rocks].
+
+[🖐contrib-rocks]: https://contrib.rocks
+[🖐contributors]: https://github.com/VitalConnectInc/open_id_authentication2/graphs/contributors
+[🖐contributors-img]: https://contrib.rocks/image?repo=VitalConnectInc/open_id_authentication2
+
+## 📄 License
+
+The gem is available as open source under the terms of
+the [MIT License][📄license] [![License: MIT][📄license-img]][📄license-ref].
+
+See [LICENSE.txt][📄license] for the official [Copyright Notice][📄copyright-notice-explainer].
+
+[comment]: <> ( 📄 LEGAL LINKS )
+
+[📄copyright-notice-explainer]: https://opensource.stackexchange.com/questions/5778/why-do-licenses-such-as-the-mit-license-specify-a-single-year
+[📄license]: LICENSE.txt
+[📄license-ref]: https://opensource.org/licenses/MIT
+[📄license-img]: https://img.shields.io/badge/License-MIT-green.svg
