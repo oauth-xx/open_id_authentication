@@ -31,6 +31,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency("rack-openid2", "~> 2.0", ">= 2.0.1")
   spec.add_dependency("version_gem", "~> 1.1", ">= 1.1.4")
 
+  # Coverage
+  spec.add_development_dependency("kettle-soup-cover", "~> 1.0", ">= 1.0.2")
+
   # Testing
   spec.add_development_dependency("rake", ">= 13")
   spec.add_development_dependency("rspec", ">= 3")
