@@ -1,4 +1,4 @@
-require "open_id_authentication/result"
+require_relative "result"
 
 module OpenIdAuthentication
   module ControllerMethods

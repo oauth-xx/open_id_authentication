@@ -1,4 +1,6 @@
 module OpenIdAuthentication
-  VERSION = "1.3.0"
+  module Version
+    VERSION = "2.0.0"
+  end
 end
   
