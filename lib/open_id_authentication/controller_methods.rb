@@ -8,12 +8,12 @@ module OpenIdAuthentication
     # the Rails convention "open_id_identifier" because that's what
     # the specification dictates in order to get browser auto-complete
     # working across sites
-    def using_open_id?(identifier = nil) #:doc:
+    def using_open_id?(identifier = nil) # :doc:
       identifier ||= open_id_identifier
       !identifier.blank? || request.env[Rack::OpenID::RESPONSE]
     end
 
-    def authenticate_with_open_id(identifier = nil, options = {}, &block) #:doc:
+    def authenticate_with_open_id(identifier = nil, options = {}, &block) # :doc:
       identifier ||= open_id_identifier
 
       if request.env[Rack::OpenID::RESPONSE]
@@ -33,11 +33,11 @@ module OpenIdAuthentication
       options[:identifier] = identifier
       value = Rack::OpenID.build_header(options)
       response.headers[Rack::OpenID::AUTHENTICATE_HEADER] = value
-      head :unauthorized
+      head(:unauthorized)
     end
 
     def complete_open_id_authentication
-      response   = request.env[Rack::OpenID::RESPONSE]
+      response = request.env[Rack::OpenID::RESPONSE]
       identifier = response.display_identifier
 
       case response.status

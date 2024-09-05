@@ -5,4 +5,4 @@ require "config/rspec/rspec_core"
 require "config/rspec/version_gem"
 
 # This library
-require 'open_id_authentication'
+require "open_id_authentication"

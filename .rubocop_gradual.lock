@@ -1,0 +1,18 @@
+{
+  "bin/bundle:4028066867": [
+    [64, 5, 20, "ThreadSafety/InstanceVariableInClassMethod: Avoid instance variables in class methods.", 2485198147]
+  ],
+  "lib/open_id_authentication.rb:3708154332": [
+    [12, 3, 74, "Style/ClassMethodsDefinitions: Use `class << self` to define a class method.", 3192095706],
+    [16, 3, 41, "Style/ClassMethodsDefinitions: Use `class << self` to define a class method.", 1311143794],
+    [20, 3, 57, "Style/ClassMethodsDefinitions: Use `class << self` to define a class method.", 3032259827]
+  ],
+  "lib/open_id_authentication/result.rb:3805680109": [
+    [11, 5, 41, "Style/ClassMethodsDefinitions: Use `class << self` to define a class method.", 1306852074],
+    [30, 7, 35, "Performance/InefficientHashSearch: Use `#key?` instead of `#keys.include?`.", 2875436881]
+  ],
+  "spec/open_id_authentication_spec.rb:1246282037": [
+    [1, 1, 35, "RSpec/EmptyExampleGroup: Empty example group detected.", 2021035144],
+    [3, 5, 20, "RSpec/DescribedClass: Use `described_class` instead of `OpenIdAuthentication`.", 3189343260]
+  ]
+}

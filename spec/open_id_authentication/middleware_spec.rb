@@ -3,7 +3,7 @@ RSpec.describe OpenIdAuthentication::Middleware do
 
   describe "::new" do
     it "does not raise an error" do
-      block_is_expected.to_not raise_error
+      block_is_expected.not_to raise_error
     end
 
     it "creates a Rack::OpenID" do

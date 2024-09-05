@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   ]
 
   spec.license = "MIT"
-  spec.required_ruby_version = '>= 2.7.0'
+  spec.required_ruby_version = ">= 2.7.0"
 
   spec.add_dependency("rack-openid2", "~> 2.0", ">= 2.0.1")
   spec.add_dependency("version_gem", "~> 1.1", ">= 1.1.4")

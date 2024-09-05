@@ -5,7 +5,7 @@ require "version_gem"
 require_relative "open_id_authentication/version"
 require_relative "open_id_authentication/middleware"
 require_relative "open_id_authentication/controller_methods"
-require_relative "open_id_authentication/railtie" if defined?(::Rails::Railtie)
+require_relative "open_id_authentication/railtie" if defined?(Rails::Railtie)
 
 module OpenIdAuthentication
   # deprecated middleware creation
