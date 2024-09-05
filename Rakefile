@@ -11,3 +11,24 @@ rescue LoadError
     warn("rspec is disabled")
   end
 end
+
+begin
+  require "ostruct" # until https://github.com/zverok/yard-junk/pull/42 is merged!
+  require "yard-junk/rake"
+
+  YardJunk::Rake.define_task
+rescue LoadError
+  task("yard:junk") do
+    warn("yard:junk is disabled")
+  end
+end
+
+begin
+  require "yard"
+
+  YARD::Rake::YardocTask.new(:yard)
+rescue LoadError
+  task(:yard) do
+    warn("yard is disabled")
+  end
+end

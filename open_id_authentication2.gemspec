@@ -35,4 +35,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency("rake", ">= 13")
   spec.add_development_dependency("rspec", ">= 3")
   spec.add_development_dependency("rspec-block_is_expected", "~> 1.0", ">= 1.0.5")
+
+  # Documentation
+  spec.add_development_dependency("yard", "~> 0.9", ">= 0.9.34")
+  spec.add_development_dependency("yard-junk", "~> 0.0")
 end
