@@ -32,3 +32,14 @@ rescue LoadError
     warn("yard is disabled")
   end
 end
+
+begin
+  require "rubocop/lts"
+  Rubocop::Lts.install_tasks
+rescue LoadError
+  task(:rubocop_gradual) do
+    warn("RuboCop (Gradual) is disabled")
+  end
+end
+
+task default: %i[spec rubocop_gradual yard yard:junk]

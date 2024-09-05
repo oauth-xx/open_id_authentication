@@ -36,6 +36,13 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency("rspec", ">= 3")
   spec.add_development_dependency("rspec-block_is_expected", "~> 1.0", ">= 1.0.5")
 
+  # Linting
+  spec.add_development_dependency("rubocop-lts", "~> 18.2", ">= 18.2.1")
+  spec.add_development_dependency("rubocop-minitest", "~> 0.36")
+  spec.add_development_dependency("rubocop-packaging", "~> 0.5", ">= 0.5.2")
+  spec.add_development_dependency("rubocop-rspec", "~> 2.10")
+  spec.add_development_dependency("standard", ">= 1.35.1")
+
   # Documentation
   spec.add_development_dependency("yard", "~> 0.9", ">= 0.9.34")
   spec.add_development_dependency("yard-junk", "~> 0.0")
