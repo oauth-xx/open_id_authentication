@@ -28,6 +28,8 @@ from that gem.
 
 The specification used is http://openid.net/specs/openid-authentication-2_0.html.
 
+In the early days of Rails, this was an official Rails' plugin, written by DHH. See [Credits](#credits) for more information.
+
 ## Prerequisites
 
 OpenID authentication uses the session, so be sure that you haven't turned that off.
@@ -240,15 +242,15 @@ This would provide the sreg data for :email via registration, and the AX data fo
 
 ## Credits
 
-## 🌈 Contributors
+### 🌈 Contributors
 
 Current maintainer(s):
 
 - [Peter Boling](https://github.com/pboling)
 
 Special thanks to:
-- David Heinemeier Hansson - author of original `open_id_authentication`
-- [Joshua Peek](https://github.com/josh) maintainer of original `open_id_authentication2`
+- David Heinemeier Hansson - author of Rails' [original `open_id_authentication`](https://github.com/rails/open_id_authentication)
+- [Joshua Peek](https://github.com/josh) maintainer of Rails' [original `open_id_authentication2`](https://github.com/rails/open_id_authentication)
 
 And all the other contributors!
 
