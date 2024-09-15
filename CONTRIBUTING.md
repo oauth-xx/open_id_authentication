@@ -1,6 +1,6 @@
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [https://github.com/VitalConnectInc/open_id_authentication2][🚎src-main]
+Bug reports and pull requests are welcome on GitHub at [https://github.com/pboling/open_id_authentication][🚎src-main]
 . This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to
 the [code of conduct][🤝conduct].
 
@@ -33,7 +33,7 @@ See: [RubyGems Security Guide][🔒️rubygems-security-guide]
    - Note that you'll need the `zsh/datetime` module, if running `zsh`.
    - In `bash` you can use `date +%s` instead, i.e. `export SOURCE_DATE_EPOCH=$(date +%s) && echo $SOURCE_DATE_EPOCH`
 10. Run `bundle exec rake build`
-11. Run [`bin/checksums`][🔒️rubygems-checksums-pr] to create SHA-256 and SHA-512 checksums
+11. Run `bin/checksums` (more [context][🔒️rubygems-checksums-pr]) to create SHA-256 and SHA-512 checksums
     - Checksums will be committed automatically by the script, but not pushed
 12. Run `bundle exec rake release` which will create a git tag for the version,
     push git commits and tags, and push the `.gem` file to [rubygems.org][💎rubygems]
@@ -44,12 +44,12 @@ See: [RubyGems Security Guide][🔒️rubygems-security-guide]
 
 Made with [contributors-img][🖐contrib-rocks].
 
-[🧪build]: https://github.com/VitalConnectInc/open_id_authentication2/actions
-[🤝conduct]: https://github.com/VitalConnectInc/open_id_authentication2/blob/main/CODE_OF_CONDUCT.md
+[🧪build]: https://github.com/pboling/open_id_authentication/actions
+[🤝conduct]: https://github.com/pboling/open_id_authentication/blob/main/CODE_OF_CONDUCT.md
 [🖐contrib-rocks]: https://contrib.rocks
-[🖐contributors]: https://github.com/VitalConnectInc/open_id_authentication2/graphs/contributors
-[🖐contributors-img]: https://contrib.rocks/image?repo=VitalConnectInc/open_id_authentication2
+[🖐contributors]: https://github.com/pboling/open_id_authentication/graphs/contributors
+[🖐contributors-img]: https://contrib.rocks/image?repo=pboling/open_id_authentication
 [💎rubygems]: https://rubygems.org
 [🔒️rubygems-security-guide]: https://guides.rubygems.org/security/#building-gems
 [🔒️rubygems-checksums-pr]: https://github.com/rubygems/guides/pull/325
-[🚎src-main]: https://github.com/VitalConnectInc/open_id_authentication2
+[🚎src-main]: https://github.com/pboling/open_id_authentication

@@ -5,12 +5,12 @@ gem_version = OpenIdAuthentication::Version::VERSION
 OpenIdAuthentication::Version.send(:remove_const, :VERSION)
 
 Gem::Specification.new do |spec|
-  spec.name = "open_id_authentication2"
+  spec.name = "open_id_authentication"
   spec.version = gem_version
   spec.summary = "Provides a thin wrapper around the excellent rack-openid2 gem."
   spec.authors = ["Peter Boling", "Patrick Robertson", "Michael Grosser", "Joshua Peek", "David Heinemeier Hansson"]
   spec.email = "peter.boling@gmail.com"
-  spec.homepage = "https://github.com/VitalConnectInc/#{spec.name}"
+  spec.homepage = "https://github.com/pboling/#{spec.name}"
 
   # See CONTRIBUTING.md
   spec.cert_chain = [ENV.fetch("GEM_CERT_PATH", "certs/#{ENV.fetch("GEM_CERT_USER", ENV["USER"])}.pem")]
@@ -39,6 +39,7 @@ Gem::Specification.new do |spec|
   spec.metadata["bug_tracker_uri"] = "#{spec.homepage}/issues"
   spec.metadata["documentation_uri"] = "https://www.rubydoc.info/gems/#{spec.name}/#{spec.version}"
   spec.metadata["wiki_uri"] = "#{spec.homepage}/wiki"
+  spec.metadata["funding_uri"] = "https://liberapay.com/pboling"
   spec.metadata["rubygems_mfa_required"] = "true"
 
   spec.add_dependency("rack-openid2", "~> 2.0", ">= 2.0.1")
@@ -61,5 +62,5 @@ Gem::Specification.new do |spec|
 
   # Documentation
   spec.add_development_dependency("yard", "~> 0.9", ">= 0.9.34")
-  spec.add_development_dependency("yard-junk", "~> 0.0")
+  spec.add_development_dependency("yard-junk", "~> 0.0.10")
 end

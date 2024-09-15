@@ -8,16 +8,16 @@
 [![CI Coverage Build][🚎cov-wfi]][🚎cov-wf]
 [![CI Heads Build][🚎hd-wfi]][🚎hd-wf]
 
-[🚎s-wf]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/supported.yml
-[🚎s-wfi]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/supported.yml/badge.svg
-[🚎us-wf]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/unsupported.yml
-[🚎us-wfi]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/unsupported.yml/badge.svg
-[🚎st-wf]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/style.yml
-[🚎st-wfi]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/style.yml/badge.svg
-[🚎cov-wf]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/coverage.yml
-[🚎cov-wfi]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/coverage.yml/badge.svg
-[🚎hd-wf]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/heads.yml
-[🚎hd-wfi]: https://github.com/VitalConnectInc/open_id_authentication2/actions/workflows/heads.yml/badge.svg
+[🚎s-wf]: https://github.com/pboling/open_id_authentication/actions/workflows/supported.yml
+[🚎s-wfi]: https://github.com/pboling/open_id_authentication/actions/workflows/supported.yml/badge.svg
+[🚎us-wf]: https://github.com/pboling/open_id_authentication/actions/workflows/unsupported.yml
+[🚎us-wfi]: https://github.com/pboling/open_id_authentication/actions/workflows/unsupported.yml/badge.svg
+[🚎st-wf]: https://github.com/pboling/open_id_authentication/actions/workflows/style.yml
+[🚎st-wfi]: https://github.com/pboling/open_id_authentication/actions/workflows/style.yml/badge.svg
+[🚎cov-wf]: https://github.com/pboling/open_id_authentication/actions/workflows/coverage.yml
+[🚎cov-wfi]: https://github.com/pboling/open_id_authentication/actions/workflows/coverage.yml/badge.svg
+[🚎hd-wf]: https://github.com/pboling/open_id_authentication/actions/workflows/heads.yml
+[🚎hd-wfi]: https://github.com/pboling/open_id_authentication/actions/workflows/heads.yml/badge.svg
 
 </div>
 
@@ -259,8 +259,8 @@ And all the other contributors!
 Made with [contributors-img][🖐contrib-rocks].
 
 [🖐contrib-rocks]: https://contrib.rocks
-[🖐contributors]: https://github.com/VitalConnectInc/open_id_authentication2/graphs/contributors
-[🖐contributors-img]: https://contrib.rocks/image?repo=VitalConnectInc/open_id_authentication2
+[🖐contributors]: https://github.com/pboling/open_id_authentication/graphs/contributors
+[🖐contributors-img]: https://contrib.rocks/image?repo=pboling/open_id_authentication
 
 ## 📄 License
 
