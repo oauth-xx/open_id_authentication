@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Provides a thin wrapper around the excellent rack-openid2 gem."
   spec.authors = ["Peter Boling", "Patrick Robertson", "Michael Grosser", "Joshua Peek", "David Heinemeier Hansson"]
   spec.email = "peter.boling@gmail.com"
-  spec.homepage = "https://github.com/pboling/#{spec.name}"
+  spec.homepage = "https://github.com/oauth-xx/#{spec.name}"
 
   # See CONTRIBUTING.md
   spec.cert_chain = [ENV.fetch("GEM_CERT_PATH", "certs/#{ENV.fetch("GEM_CERT_USER", ENV["USER"])}.pem")]

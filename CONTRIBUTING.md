@@ -1,6 +1,6 @@
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at [https://github.com/pboling/open_id_authentication][🚎src-main]
+Bug reports and pull requests are welcome on GitHub at [https://github.com/oauth-xx/open_id_authentication][🚎src-main]
 . This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to
 the [code of conduct][🤝conduct].
 
@@ -44,12 +44,12 @@ See: [RubyGems Security Guide][🔒️rubygems-security-guide]
 
 Made with [contributors-img][🖐contrib-rocks].
 
-[🧪build]: https://github.com/pboling/open_id_authentication/actions
-[🤝conduct]: https://github.com/pboling/open_id_authentication/blob/main/CODE_OF_CONDUCT.md
+[🧪build]: https://github.com/oauth-xx/open_id_authentication/actions
+[🤝conduct]: https://github.com/oauth-xx/open_id_authentication/blob/main/CODE_OF_CONDUCT.md
 [🖐contrib-rocks]: https://contrib.rocks
-[🖐contributors]: https://github.com/pboling/open_id_authentication/graphs/contributors
-[🖐contributors-img]: https://contrib.rocks/image?repo=pboling/open_id_authentication
+[🖐contributors]: https://github.com/oauth-xx/open_id_authentication/graphs/contributors
+[🖐contributors-img]: https://contrib.rocks/image?repo=oauth-xx/open_id_authentication
 [💎rubygems]: https://rubygems.org
 [🔒️rubygems-security-guide]: https://guides.rubygems.org/security/#building-gems
 [🔒️rubygems-checksums-pr]: https://github.com/rubygems/guides/pull/325
-[🚎src-main]: https://github.com/pboling/open_id_authentication
+[🚎src-main]: https://github.com/oauth-xx/open_id_authentication
