@@ -12,7 +12,6 @@ rescue LoadError
 end
 
 begin
-  require "ostruct" # until https://github.com/zverok/yard-junk/pull/42 is merged!
   require "yard-junk/rake"
 
   YardJunk::Rake.define_task
