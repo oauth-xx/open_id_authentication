@@ -2,6 +2,8 @@
 
 <div id="badges">
 
+<div align="center">
+
 [![CI Supported Build][🚎s-wfi]][🚎s-wf]
 [![CI Unsupported Build][🚎us-wfi]][🚎us-wf]
 [![CI Style Build][🚎st-wfi]][🚎st-wf]
@@ -18,6 +20,8 @@
 [🚎cov-wfi]: https://github.com/oauth-xx/open_id_authentication/actions/workflows/coverage.yml/badge.svg
 [🚎hd-wf]: https://github.com/oauth-xx/open_id_authentication/actions/workflows/heads.yml
 [🚎hd-wfi]: https://github.com/oauth-xx/open_id_authentication/actions/workflows/heads.yml/badge.svg
+
+</div>
 
 -----
 
