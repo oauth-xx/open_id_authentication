@@ -52,7 +52,7 @@
 </div>
 </div>
 
-Provides a thin wrapper around [`ruby-openid2`](https://github.com/oauth-xx/uby-openid2), a modernized fork of the
+Provides a thin wrapper around [`ruby-openid2`](https://github.com/oauth-xx/ruby-openid2), a modernized fork of the
 ancient-and-archived `ruby-openid` gem from JanRan.
 
 To understand what OpenID is about and how it works, it helps to read the documentation for lib/openid/consumer.rb

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    open_id_authentication (2.0.0)
+    open_id_authentication (2.0.1)
       rack-openid2 (~> 2.0, >= 2.0.1)
       version_gem (~> 1.1, >= 1.1.4)
 
