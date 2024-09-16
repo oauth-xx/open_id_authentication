@@ -62,7 +62,17 @@ The specification used is http://openid.net/specs/openid-authentication-2_0.html
 
 In the early days of Rails, this was an official Rails' plugin, written by DHH. See [Credits](#credits) for more information.
 
-## Prerequisites
+## Installation
+
+Install the gem and add to the application's Gemfile by executing:
+
+    $ bundle add open_id_authentication
+
+If bundler is not being used to manage dependencies, install the gem by executing:
+
+    $ gem install open_id_authentication
+
+## Setup
 
 OpenID authentication uses the session, so be sure that you haven't turned that off.
 
@@ -267,10 +277,6 @@ Accessing AX data is very similar to the Simple Registration process, described 
         |result, identity_url, registration, ax|
 
 This would provide the sreg data for :email via registration, and the AX data for http://schema.openid.net/birthDate via ax.
-
-## TODO
-
-- More tests
 
 ## Credits
 
