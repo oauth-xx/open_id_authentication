@@ -29,24 +29,23 @@
 
 [![Liberapay Patrons][⛳liberapay-img]][⛳liberapay]
 [![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor]
+[![Polar Shield][🖇polar-img]][🖇polar]
+[![Donate to my FLOSS or refugee efforts at ko-fi.com][🖇kofi-img]][🖇kofi]
+[![Donate to my FLOSS or refugee efforts using Patreon][🖇patreon-img]][🖇patreon]
 
 [⛳liberapay-img]: https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay
 [⛳liberapay]: https://liberapay.com/pboling/donate
 [🖇sponsor-img]: https://img.shields.io/badge/Sponsor_Me!-pboling.svg?style=social&logo=github
 [🖇sponsor]: https://github.com/sponsors/pboling
+[🖇polar-img]: https://polar.sh/embed/seeks-funding-shield.svg?org=pboling
+[🖇polar]: https://polar.sh/pboling
+[🖇kofi-img]: https://img.shields.io/badge/buy%20me%20coffee-donate-yellow.svg
+[🖇kofi]: https://ko-fi.com/O5O86SNP4
+[🖇patreon-img]: https://img.shields.io/badge/patreon-donate-yellow.svg
+[🖇patreon]: https://patreon.com/galtzo
 
 <span class="badge-buymealatte">
 <a href="https://www.buymeacoffee.com/pboling"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a latte&emoji=&slug=pboling&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
-</span>
-<br>
-<span class="badge-polarshield">
-<a href="https://polar.sh/pboling"><img src="https://polar.sh/embed/seeks-funding-shield.svg?org=pboling" /></a>
-</span>
-<span class="badge-buymeacoffee">
-<a href="https://ko-fi.com/O5O86SNP4" target='_blank' title="Donate to my FLOSS or refugee efforts at ko-fi.com"><img src="https://img.shields.io/badge/buy%20me%20coffee-donate-yellow.svg" alt="Buy me coffee donation button" /></a>
-</span>
-<span class="badge-patreon">
-<a href="https://patreon.com/galtzo" title="Donate to my FLOSS or refugee efforts using Patreon"><img src="https://img.shields.io/badge/patreon-donate-yellow.svg" alt="Patreon donate button" /></a>
 </span>
 
 </div>
