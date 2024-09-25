@@ -16,6 +16,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 25.00% documented
 ### Added
 - More Documentation
+### Changed
+- rack-openid2 v2.0.3
 ### Fixed
 - Incorrect Documentation
 - Markdown Formatting
