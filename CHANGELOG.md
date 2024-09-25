@@ -10,17 +10,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
+## 2.0.2 - 2024-09-25
+- COVERAGE:  55.56% -- 55/99 lines in 6 files
+- BRANCH COVERAGE:  23.53% -- 4/17 branches in 6 files
+- 25.00% documented
+### Added
+- More Documentation
+### Fixed
+- Incorrect Documentation
+- Markdown Formatting
+### Changed
+- Renamed gem back to original `open_id_authentication`
+
 ## 2.0.1 - 2024-09-16 (returned to `open_id_authentication`)
-COVERAGE:  55.56% -- 55/99 lines in 6 files
-BRANCH COVERAGE:  23.53% -- 4/17 branches in 6 branches
+- COVERAGE:  55.56% -- 55/99 lines in 6 files
+- BRANCH COVERAGE:  23.53% -- 4/17 branches in 6 branches
 ### Added
 - More Documentation
 ### Changed
 - Renamed gem back to original `open_id_authentication`
 
 ## 2.0.0 - 2024-09-05 (released as `open_id_authentication2`)
-COVERAGE:  55.56% -- 55/99 lines in 6 files
-BRANCH COVERAGE:  23.53% -- 4/17 branches in 6 branches
+- COVERAGE:  55.56% -- 55/99 lines in 6 files
+- BRANCH COVERAGE:  23.53% -- 4/17 branches in 6 branches
 ### Added
 - More specs
 - version_gem runtime dependency

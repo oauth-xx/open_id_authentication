@@ -42,7 +42,7 @@ Gem::Specification.new do |spec|
   spec.metadata["funding_uri"] = "https://liberapay.com/pboling"
   spec.metadata["rubygems_mfa_required"] = "true"
 
-  spec.add_dependency("rack-openid2", "~> 2.0", ">= 2.0.1")
+  spec.add_dependency("rack-openid2", "~> 2.0", ">= 2.0.2")
   spec.add_dependency("version_gem", "~> 1.1", ">= 1.1.4")
 
   # Coverage
