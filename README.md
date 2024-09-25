@@ -1,9 +1,5 @@
 # OpenIdAuthentication
 
-<div id="badges">
-
-<div align="center">
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/gem/v/gem_bench.svg)](https://rubygems.org/gems/open_id_authentication)
 [![Downloads Today](https://img.shields.io/gem/rd/gem_bench.svg)](https://github.com/oauth-xx/open_id_authentication)
@@ -14,6 +10,14 @@
 [![CI Style Build][🚎st-wfi]][🚎st-wf]
 [![CI Coverage Build][🚎cov-wfi]][🚎cov-wf]
 [![CI Heads Build][🚎hd-wfi]][🚎hd-wf]
+
+-----
+
+[![Liberapay Patrons][⛳liberapay-img]][⛳liberapay]
+[![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor]
+[![Polar Shield][🖇polar-img]][🖇polar]
+[![Donate to my FLOSS or refugee efforts at ko-fi.com][🖇kofi-img]][🖇kofi]
+[![Donate to my FLOSS or refugee efforts using Patreon][🖇patreon-img]][🖇patreon]
 
 [🚎s-wf]: https://github.com/oauth-xx/open_id_authentication/actions/workflows/supported.yml
 [🚎s-wfi]: https://github.com/oauth-xx/open_id_authentication/actions/workflows/supported.yml/badge.svg
@@ -26,18 +30,6 @@
 [🚎hd-wf]: https://github.com/oauth-xx/open_id_authentication/actions/workflows/heads.yml
 [🚎hd-wfi]: https://github.com/oauth-xx/open_id_authentication/actions/workflows/heads.yml/badge.svg
 
-</div>
-
------
-
-<div align="center">
-
-[![Liberapay Patrons][⛳liberapay-img]][⛳liberapay]
-[![Sponsor Me on Github][🖇sponsor-img]][🖇sponsor]
-[![Polar Shield][🖇polar-img]][🖇polar]
-[![Donate to my FLOSS or refugee efforts at ko-fi.com][🖇kofi-img]][🖇kofi]
-[![Donate to my FLOSS or refugee efforts using Patreon][🖇patreon-img]][🖇patreon]
-
 [⛳liberapay-img]: https://img.shields.io/liberapay/patrons/pboling.svg?logo=liberapay
 [⛳liberapay]: https://liberapay.com/pboling/donate
 [🖇sponsor-img]: https://img.shields.io/badge/Sponsor_Me!-pboling.svg?style=social&logo=github
@@ -48,13 +40,6 @@
 [🖇kofi]: https://ko-fi.com/O5O86SNP4
 [🖇patreon-img]: https://img.shields.io/badge/patreon-donate-yellow.svg
 [🖇patreon]: https://patreon.com/galtzo
-
-<span class="badge-buymealatte">
-<a href="https://www.buymeacoffee.com/pboling"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a latte&emoji=&slug=pboling&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
-</span>
-
-</div>
-</div>
 
 Provides a thin wrapper around [`ruby-openid2`](https://github.com/oauth-xx/ruby-openid2), a modernized fork of the
 ancient-and-archived `ruby-openid` gem from JanRan.
@@ -216,7 +201,6 @@ you can collapse the case into a mere boolean:
       end
     end
 
-
 ## Simple Registration OpenID Extension
 
 Some OpenID Providers support this lightweight profile exchange protocol.  See more: http://www.openidenabled.com/openid/simple-registration-extension
@@ -282,6 +266,37 @@ Accessing AX data is very similar to the Simple Registration process, described 
 
 This would provide the sreg data for :email via registration, and the AX data for http://schema.openid.net/birthDate via ax.
 
+## General Info
+
+| Primary Namespace | `OpenIdAuthentication`                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| code triage       | [![Open Source Helpers](https://www.codetriage.com/oauth-xx/open_id_authentication/badges/users.svg)](https://www.codetriage.com/oauth-xx/open_id_authentication)                                                                                                                                                                                                                                                                                                         |
+| documentation     | [on Github.com][homepage],  [on rubydoc.info][documentation]                                                                                                                                                                                                                                                                                                                                                                                             |
+| expert support    | [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/peterboling?utm_source=github&utm_medium=button&utm_term=peterboling&utm_campaign=github)                                                                                                                                                                                                                                                 |
+| `...` 💖          | [![Liberapay Patrons][⛳liberapay-img]][⛳liberapay] [![Sponsor Me][🖇sponsor-img]][🖇sponsor] [![Follow Me on LinkedIn][🖇linkedin-img]][🖇linkedin] [![Find Me on WellFound:][✌️wellfound-img]][✌️wellfound] [![Find Me on CrunchBase][💲crunchbase-img]][💲crunchbase] [![My LinkTree][🌳linktree-img]][🌳linktree] [![Follow Me on Ruby.Social][🐘ruby-mast-img]][🐘ruby-mast] [![Tweet @ Peter][🐦tweet-img]][🐦tweet] [💻][coderme] [🌏][aboutme] |
+
+<!-- 7️⃣ spread 💖 -->
+[🐦tweet-img]: https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow%20%40galtzo
+[🐦tweet]: http://twitter.com/galtzo
+[🚎blog]: http://www.railsbling.com/tags/open_id_authentication/
+[🚎blog-img]: https://img.shields.io/badge/blog-railsbling-brightgreen.svg?style=flat
+[🖇linkedin]: http://www.linkedin.com/in/peterboling
+[🖇linkedin-img]: https://img.shields.io/badge/PeterBoling-blue?style=plastic&logo=linkedin
+[✌️wellfound]: https://angel.co/u/peter-boling
+[✌️wellfound-img]: https://img.shields.io/badge/peter--boling-orange?style=plastic&logo=wellfound
+[💲crunchbase]: https://www.crunchbase.com/person/peter-boling
+[💲crunchbase-img]: https://img.shields.io/badge/peter--boling-purple?style=plastic&logo=crunchbase
+[🐘ruby-mast]: https://ruby.social/@galtzo
+[🐘ruby-mast-img]: https://img.shields.io/mastodon/follow/109447111526622197?domain=https%3A%2F%2Fruby.social&style=plastic&logo=mastodon&label=Ruby%20%40galtzo
+[🌳linktree]: https://linktr.ee/galtzo
+[🌳linktree-img]: https://img.shields.io/badge/galtzo-purple?style=plastic&logo=linktree
+[documentation]: https://rubydoc.info/github/oauth-xx/open_id_authentication
+[homepage]: https://github.com/oauth-xx/open_id_authentication
+
+<!-- Maintainer Contact Links -->
+[aboutme]: https://about.me/peter.boling
+[coderme]: https://coderwall.com/Peter%20Boling
+
 ## Credits
 
 ### 🌈 Contributors
@@ -317,3 +332,16 @@ See [LICENSE.txt][📄license] for the official [Copyright Notice][📄copyright
 [📄license]: LICENSE.txt
 [📄license-ref]: https://opensource.org/licenses/MIT
 [📄license-img]: https://img.shields.io/badge/License-MIT-green.svg
+
+## 🤑 One more thing
+
+You made it to the bottom of the page!
+If you think maintaining this gem is more difficult than parsing a README,
+or if you think I've done a bang up job with this gem,
+please consider supporting my efforts via this link,
+or one of the others at the head.
+
+[![Buy me a latte][🖇buyme-img]][🖇buyme]
+
+[🖇buyme-img]: https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20latte&emoji=&slug=pboling&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff
+[🖇buyme]: https://www.buymeacoffee.com/pboling
