@@ -5,3 +5,5 @@
 /doc/
 /.bundle/
 /.yardoc/
+
+.env.*
