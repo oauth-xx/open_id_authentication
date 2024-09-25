@@ -1,11 +1,12 @@
 # OpenIdAuthentication
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/gem/v/gem_bench.svg)](https://rubygems.org/gems/open_id_authentication)
-[![Downloads Today](https://img.shields.io/gem/rd/gem_bench.svg)](https://github.com/oauth-xx/open_id_authentication)
+[![Version](https://img.shields.io/gem/v/open_id_authentication.svg)](https://rubygems.org/gems/open_id_authentication)
+[![Downloads Today](https://img.shields.io/gem/rd/open_id_authentication.svg)](https://github.com/oauth-xx/open_id_authentication)
 [![Depfu](https://badges.depfu.com/badges/0860845c093872a36ee51d1f7e9203db/overview.svg)](https://depfu.com/github/oauth-xx/open_id_authentication?project_id=46542)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f8810737ca8a04d8593b/test_coverage)](https://codeclimate.com/github/oauth-xx/open_id_authentication/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f8810737ca8a04d8593b/maintainability)](https://codeclimate.com/github/oauth-xx/open_id_authentication/maintainability)[![CI Supported Build][🚎s-wfi]][🚎s-wf]
+[![CI Supported Build][🚎s-wfi]][🚎s-wf]
 [![CI Unsupported Build][🚎us-wfi]][🚎us-wf]
 [![CI Style Build][🚎st-wfi]][🚎st-wf]
 [![CI Coverage Build][🚎cov-wfi]][🚎cov-wf]
