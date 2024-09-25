@@ -19,8 +19,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Incorrect Documentation
 - Markdown Formatting
-### Changed
-- Renamed gem back to original `open_id_authentication`
 
 ## 2.0.1 - 2024-09-16 (returned to `open_id_authentication`)
 - COVERAGE:  55.56% -- 55/99 lines in 6 files
