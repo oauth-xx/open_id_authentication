@@ -1,3 +1,5 @@
+The MIT License (MIT)
+
 Copyright (c) 2007 - 2011 David Heinemeier Hansson, Joshua Peek
 Copyright (c) 2024 Peter Boling
 
