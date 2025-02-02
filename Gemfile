@@ -14,3 +14,6 @@ platform :mri do
   # Debugging
   gem "byebug", ">= 11"
 end
+
+# Std Lib Extractions
+gem "benchmark", "~> 0.4"

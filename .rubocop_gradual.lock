@@ -1,4 +1,7 @@
 {
+  "bin/bundle:577146252": [
+    [64, 5, 20, "ThreadSafety/ClassInstanceVariable: Avoid class instance variables.", 2485198147]
+  ],
   "lib/open_id_authentication.rb:3708154332": [
     [12, 3, 74, "Style/ClassMethodsDefinitions: Use `class << self` to define a class method.", 3192095706],
     [16, 3, 41, "Style/ClassMethodsDefinitions: Use `class << self` to define a class method.", 1311143794],
