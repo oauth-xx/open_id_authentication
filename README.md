@@ -53,11 +53,13 @@ it helps to read the documentation for [lib/openid/consumer.rb](https://github.c
 from the `ruby-openid2` gem.
 
 The specifications used are [OpenID Authentication 2.0](http://openid.net/specs/openid-authentication-2_0.html),
-and [OpenID Attribute Exchange 1.0](http://openid.net/specs/openid-attribute-exchange-1_0.html).
+[OpenID Attribute Exchange 1.0](http://openid.net/specs/openid-attribute-exchange-1_0.html), and
+[OpenID Simple Registration Extension 1.0](https://openid.net/specs/openid-simple-registration-extension-1_0.html).
 These are considered [obsolete standards](https://openid.net/developers/specs/),
 having been super-ceded by OpenID Connect.
 In general, if you have a choice, a solution based on OpenID Connect,
-which is itself based on the modern OAuth 2.0 specification, will be a better choice.
+which is itself based on the modern OAuth 2.0 specification,
+will be a **better choice** than OpenID 2.0 and this library.
 
 This library is mature, and used in production.  Maintenance should be expected for security issues and some bugfixes.
 
@@ -81,18 +83,18 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 OpenID authentication uses the session, so be sure that you haven't turned that off.
 
-Alternatively, you can use the file-based store, which just relies on on tmp/openids being present in RAILS_ROOT. But be aware that this store only works if you have a single application server. And it's not safe to use across NFS. It's recommended that you use the database store if at all possible. To use the file-based store, you'll also have to add this line to your config/environment.rb:
+Alternatively, you can use the file-based store, which just relies on `tmp/openids` being present in RAILS_ROOT. But be aware that this store only works if you have a single application server. And it's not safe to use across NFS. It's recommended that you use the database store if at all possible. To use the file-based store, you'll also have to add this line to your config/environment.rb:
 
     OpenIdAuthentication.store = :file
 
 This particular plugin also relies on the fact that the authentication action allows for both POST and GET operations.
-If you're using RESTful authentication, you'll need to explicitly allow for this in your routes.rb.
+If you're using REST-ful authentication, you'll need to explicitly allow for this in your routes.rb.
 
 The plugin also expects to find a root_url method that points to the home page of your site. You can accomplish this by using a root route in config/routes.rb:
 
     root :to => "articles#index"
 
-This plugin relies on Rails Edge revision 6317 or newer.
+This plugin works with any version of Rails you can run on Ruby 2.7 or newer.
 
 ## Example
 
@@ -219,7 +221,7 @@ you can collapse the case into a mere boolean:
 
 ## Simple Registration OpenID Extension
 
-Some OpenID Providers support this lightweight profile exchange protocol.  See more: http://www.openidenabled.com/openid/simple-registration-extension
+Some OpenID Providers support this lightweight profile exchange protocol.  See more: https://openid.net/specs/openid-simple-registration-extension-1_0.html
 
 You can support it in your app by changing #open_id_authentication
 
@@ -322,10 +324,15 @@ Current maintainer(s):
 - [Peter Boling](https://github.com/pboling)
 
 Special thanks to:
-- David Heinemeier Hansson - author of Rails' [original `open_id_authentication`](https://github.com/rails/open_id_authentication) plugin
-- [Joshua Peek](https://github.com/josh) maintainer of Rails' [original `open_id_authentication`](https://github.com/rails/open_id_authentication) plufin
 
-And all the other contributors!
+- [David Heinemeier Hansson](https://dhh.dk/)
+- [Joshua Peek](https://github.com/josh)
+
+who were the original author and maintainer, respectively, of Rails' 
+[original `open_id_authentication`](https://github.com/rails/open_id_authentication) plugin,
+which eventually became this gem library.
+
+And thanks to the many other contributors!
 
 [![Contributors][🖐contributors-img]][🖐contributors]
 
