@@ -42,15 +42,30 @@
 [🖇patreon-img]: https://img.shields.io/badge/patreon-donate-yellow.svg
 [🖇patreon]: https://patreon.com/galtzo
 
-Provides a thin wrapper around [`ruby-openid2`](https://github.com/oauth-xx/ruby-openid2), a modernized fork of the
-ancient-and-archived `ruby-openid` gem from JanRan.
+Provides a thin wrapper around _[rack-openid2](https://github.com/oauth-xx/rack-openid2)_,
+which itself is a thin wrapper around _[ruby-openid2](https://github.com/oauth-xx/ruby-openid2)_.
+These are modernized forks of the
+ancient-and-archived `rack-openid` and `ruby-openid` gems from JanRain,
+an [early sponsor](https://en.wikipedia.org/wiki/OpenID#History) of OpenID standards.
 
-To understand what OpenID is about and how it works, it helps to read the documentation for lib/openid/consumer.rb
-from that gem.
+To understand what OpenID is about and how it works,
+it helps to read the documentation for [lib/openid/consumer.rb](https://github.com/oauth-xx/ruby-openid2/blob/main/lib/openid/consumer.rb)
+from the `ruby-openid2` gem.
 
-The specification used is http://openid.net/specs/openid-authentication-2_0.html.
+The specifications used are [OpenID Authentication 2.0](http://openid.net/specs/openid-authentication-2_0.html),
+and [OpenID Attribute Exchange 1.0](http://openid.net/specs/openid-attribute-exchange-1_0.html).
+These are considered [obsolete standards](https://openid.net/developers/specs/),
+having been super-ceded by OpenID Connect.
+In general, if you have a choice, a solution based on OpenID Connect,
+which is itself based on the modern OAuth 2.0 specification, will be a better choice.
 
-In the early days of Rails, this was an official Rails' plugin, written by DHH. See [Credits](#credits) for more information.
+This library is mature, and used in production.  Maintenance should be expected for security issues and some bugfixes.
+
+In the early days of Rails, this was an official Rails plugin, written by DHH. See [Credits](#credits) for more information.
+
+NOTE: This gem does not implement OpenID Connect, which is effectively version 3.0 of the OpenID standard.
+This gem is _not_ based on OAuth 2.0 as OpenID 2.0 was developed before OAuth existed.
+OTOH, OpenID Connect is based on OAuth 2.0, but you'll need a different library for that.
 
 ## Installation
 
