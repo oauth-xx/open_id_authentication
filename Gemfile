@@ -17,3 +17,4 @@ end
 
 # Std Lib Extractions
 gem "benchmark", "~> 0.4"
+gem "logger", "~> 1.6", ">= 1.6.5"

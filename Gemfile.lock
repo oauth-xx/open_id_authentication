@@ -28,6 +28,7 @@ GEM
       version_gem (~> 1.1, >= 1.1.4)
     language_server-protocol (3.17.0.4)
     lint_roller (1.1.0)
+    logger (1.6.5)
     ostruct (0.6.1)
     parallel (1.26.3)
     parser (3.3.7.0)
@@ -171,6 +172,7 @@ DEPENDENCIES
   benchmark (~> 0.4)
   byebug (>= 11)
   kettle-soup-cover (~> 1.0, >= 1.0.2)
+  logger (~> 1.6, >= 1.6.5)
   open_id_authentication!
   rake (>= 13)
   rspec (>= 3)

@@ -328,7 +328,7 @@ Special thanks to:
 - [David Heinemeier Hansson](https://dhh.dk/)
 - [Joshua Peek](https://github.com/josh)
 
-who were the original author and maintainer, respectively, of Rails' 
+who were the original author and maintainer, respectively, of Rails'
 [original `open_id_authentication`](https://github.com/rails/open_id_authentication) plugin,
 which eventually became this gem library.
 
