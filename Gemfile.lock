@@ -157,7 +157,7 @@ GEM
     unicode-display_width (3.1.4)
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
-    version_gem (1.1.4)
+    version_gem (1.1.5)
     yard (0.9.37)
     yard-junk (0.0.10)
       backports (>= 3.18)
